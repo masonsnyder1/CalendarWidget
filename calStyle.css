@@ -1,0 +1,47 @@
+body {
+  font-family: 'Helvetica'
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.calendar {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 15px -10px gray;
+  text-align: center;
+}
+
+.calendarMonthBar {
+  display: flex;
+  justify-content: space-around;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #b3ffc1;
+  font-size: 28px;
+}
+
+.calendar-dayNames {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.calendar-dayNumbers {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+}
+
+.prevDate {
+  color:rgb(160, 160, 160)
+}
+
+.curDate {
+  color:rgb(255, 0, 0)
+}
